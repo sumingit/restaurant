@@ -1,0 +1,25 @@
+
+naver:
+  url:
+    search:
+      local: https://openapi.naver.com/v1/search/local.json
+      image: https://openapi.naver.com/v1/search/image
+  client:
+    id: I94fZPX_kO8fYSwwoGrt
+    secret: OfcJHhzqlf
+
+server:
+  port: 8082
+
+logging:
+  level:
+    org:
+     springframework:
+      boot:
+       autoconfigure: ERROR
+
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
